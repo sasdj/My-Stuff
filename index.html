@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sassoft is an indie game software design studio creating retro-inspired mobile games with original SID music."
+    />
+    <title>Sassoft | Retro Games Reimagined</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="logo-link" href="#top" aria-label="Sassoft home">
+          <img
+            class="site-logo"
+            src="assets/sassoft-logo.png"
+            alt="Sassoft logo"
+          />
+        </a>
+      </header>
+
+      <main id="top">
+        <section class="top-nav-strip">
+          <nav class="site-nav" aria-label="Primary">
+            <a href="#games">Games</a>
+            <a href="#software">Software</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </section>
+
+        <section class="section" id="games">
+          <div class="section-heading">
+            <h2>Games</h2>
+          </div>
+
+          <div class="game-grid">
+            <article class="game-card">
+              <img
+                class="game-icon"
+                src="assets/combat-maze-icon.png"
+                alt="Combat Maze app icon"
+              />
+              <div class="game-card__topline">
+                <span>iOS</span>
+                <span>Released</span>
+              </div>
+              <h3>Combat Maze</h3>
+              <p>
+                Work your way around the maze to find the flag while enemies try
+                to stop you. Collect ammo, health, and secret items to survive.
+              </p>
+              <ul>
+                <li>Unique 8-bit style graphics</li>
+                <li>Original Commodore 64 music</li>
+                <li>One giant world</li>
+                <li>Retro items to collect throughout</li>
+              </ul>
+            </article>
+
+            <article class="game-card">
+              <img
+                class="game-icon"
+                src="assets/ringgo-icon.png"
+                alt="RingGo app icon"
+              />
+              <div class="game-card__topline">
+                <span>iOS</span>
+                <span>Released</span>
+              </div>
+              <h3>RingGo</h3>
+              <p>
+                A fast, simple skill game built around timing and precision.
+                Turn the ring, thread the slots through the gap, and chase the
+                high score.
+              </p>
+              <ul>
+                <li>Simple pick-up-and-play mechanics</li>
+                <li>Original Commodore 64 music</li>
+                <li>Retro visuals with sharp mobile pacing</li>
+                <li>Designed for replayability</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="software">
+          <div class="section-heading">
+            <h2>Software</h2>
+          </div>
+
+          <div class="software-grid">
+            <article class="software-card">
+              <img
+                class="software-icon"
+                src="assets/c64-game-creator-icon.png"
+                alt="C64 Game Creator icon"
+              />
+              <div class="game-card__topline">
+                <span>macOS</span>
+              </div>
+              <h3>C64 Game Creator</h3>
+              <img
+                class="coming-soon-stamp"
+                src="assets/coming-soon-stamp.png"
+                alt="Coming soon"
+              />
+              <p>
+                A Sassoft software tool for building Commodore 64 games on
+                macOS, designed for creators who want a modern workflow with
+                classic C64 output in mind.
+              </p>
+              <ul>
+                <li>Focused on Commodore 64 game creation</li>
+                <li>Built specifically for macOS</li>
+                <li>Fits the Sassoft retro development direction</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="section-heading">
+            <p class="eyebrow">Say Hello</p>
+            <h2>Contact</h2>
+          </div>
+
+          <div class="contact-layout">
+            <form
+              class="contact-form"
+              action="mailto:sassoft@yahoo.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <label>
+                Name
+                <input type="text" name="Name" placeholder="Your name" required />
+              </label>
+
+              <label>
+                Email
+                <input type="email" name="Email" placeholder="you@example.com" required />
+              </label>
+
+              <label>
+                Message
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Tell Sassoft what you’d like to build."
+                  required
+                ></textarea>
+              </label>
+
+              <button class="button button-primary" type="submit">
+                Open Email Draft
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
